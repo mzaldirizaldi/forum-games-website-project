@@ -26,8 +26,8 @@ function reset()
     var d = document.getElementById("smile4");
     var e = document.getElementById("smile5");
     
-    if(x.style.color === "white" || click > 0){click = 0;x.style.color = "#66FCF1";y.style.color = "#66FCF1";z.style.color = "#66FCF1";document.getElementById("result").innerHTML = "";}
-    if(a.style.color === "#66FCF1"){document.getElementById("result").innerHTML = "";a.style.color = "white";b.style.color = "white";c.style.color = "white";d.style.color = "white";e.style.color = "white"}
+    if(click1 || click > 0){click1 = 0;click = 0;x.style.color = "#66FCF1";y.style.color = "#66FCF1";z.style.color = "#66FCF1";document.getElementById("result").innerHTML = "";}
+    if(a.style.color === "#66FCF1"){click1 = 0;click = 0;document.getElementById("result").innerHTML = "";a.style.color = "white";b.style.color = "white";c.style.color = "white";d.style.color = "white";e.style.color = "white"}
     else{document.getElementById("result").innerHTML = "";a.style.color = "white";b.style.color = "white";c.style.color = "white";d.style.color = "white";e.style.color = "white"}
 }
 
