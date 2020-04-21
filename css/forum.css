@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+#title {
+    font-size: 200%;
+    font-family: BebasNeue;
+    color: #66fcf1;
+    margin-left: 25%;
+    margin-top: 3%;
+    position: relative;
+}
+
+#back {
+    font-size: 200%;
+    font-family: BebasNeue;
+    color: #66fcf1;
+    margin-left: 0.5%;
+    margin-top: 0%;
+    position: relative;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+    height: 50px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left: 25%;
+  margin-top: 0%;
+  font-family: RobotoLight;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 25%;
+  margin-top: 0%;
+  width: 50%;
+    float: left
+}
+
+#myUL li a {
+    
+  border: solid 2px #66fcf1;
+  padding-top: 0.5%;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px;
+  text-decoration: none;
+  font-size: 130%;
+  font-family: RobotoLight;
+  color: white;
+  cursor: pointer;
+  display: block;
+    
+}
+
+#myUL li a:hover:not(.header) {
+    border: solid 2px #66fcf1;
+  padding-top: 0.5%;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px;
+  text-decoration: none;
+  font-size: 130%;
+  font-family: RobotoLight;
+  color: white;
+  cursor: pointer;
+  display: block;
+  background-color: #66fcf1; 
+}
+
+#recent {
+    font-size: 200%;
+    font-family: BebasNeue;
+    color: #66fcf1;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    position: relative;
+    float: left
+}
+
+#newquestion 
+{
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+    height: 50px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left: 25%;
+  margin-top: 0%;
+  font-family: RobotoLight;
+    float: left
+}
+
+#newquestbutton
+{
+    height: 50px;
+    border: 1px solid #66fcf1;
+    color: white;
+    font-size: 16px;
+    width: 4.5%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    float: left;
+}
+
+#newquestbutton:hover
+{
+    height: 50px;
+    border: 1px solid #66fcf1;
+    color: white;
+    background-color: #66fcf1;
+    cursor: pointer;
+    font-size: 16px;
+    width: 4.5%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    float: left;
+}
+
+#newquestion1
+{
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+    height: 50px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left: 25%;
+  margin-top: 0%;
+  font-family: RobotoLight;
+    float: left
+}
+
+#newquestbutton1
+{
+    height: 50px;
+    border: 1px solid #66fcf1;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    width: 4.5%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    float: left;
+}
+
+#newquestbutton1:hover
+{
+    height: 50px;
+    border: 1px solid #66fcf1;
+    color: white;
+    background-color: #66fcf1;
+    cursor: pointer;
+    font-size: 16px;
+    width: 4.5%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    float: left;
+}
+
+#newquestion2
+{
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+    height: 50px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left: 25%;
+  margin-top: 0%;
+  font-family: RobotoLight;
+    float: left
+}
+
+#newquestbutton2
+{
+    height: 50px;
+    border: 1px solid #66fcf1;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    width: 4.5%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    float: left;
+}
+
+#newquestbutton2:hover
+{
+    height: 50px;
+    border: 1px solid #66fcf1;
+    color: white;
+    background-color: #66fcf1;
+    cursor: pointer;
+    font-size: 16px;
+    width: 4.5%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    float: left;
+}
+
+#newquest {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 25%;
+  margin-top: 0%;
+  width: 50%;
+    float: left
+}
+
+#newquest li {
+    
+  border: solid 2px #66fcf1;
+  padding-top: 0.5%;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px;
+  text-decoration: none;
+  font-size: 130%;
+  font-family: RobotoLight;
+  color: white;
+  cursor: pointer;
+  display: block;
+    
+}
+
+#newquest li:hover {
+    border: solid 2px #66fcf1;
+  padding-top: 0.5%;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px;
+  text-decoration: none;
+  font-size: 130%;
+  font-family: RobotoLight;
+  color: white;
+  cursor: pointer;
+  display: block;
+  background-color: #66fcf1; 
+}

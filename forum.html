@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css"
+        href="css/homepage.css">
+    <link rel="stylesheet" type="text/css"
+        href="css/forum.css">
+    <script src="script.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="script.js"></script>
+    <title>BlaTigaKali.Forum</title>
+</head>
+
+<body background="background.jpg">
+    
+    <a href="index.html"><div id="back">BACK TO HOME</div></a> 
+    <div id="title">Ask a public question</div>
+    
+    <input type="text" id="myInput" onkeyup="search()" placeholder="Search for question..." title="Type in a question">
+    <div id="title">New Question</div>
+    
+    <input type="text" id="newquestion" placeholder="New question here..."/>
+    <div id="newquestbutton" value="click" onclick="newquest()">Enter</div>
+    
+    
+    <ul id="newquest">
+    </ul>
+    
+    <div id="recent">Recent Question</div> 
+    
+    <ul id="myUL">
+    <li><a href="#">How to overwrite file in Java Android ?</a></li>
+    <li><a href="#">How to generate a salt in Java and store it correctly in PostgreSQL?</a></li>
+
+    <li><a href="#">Which customer_id ate which food given 2 sql tables?</a></li>
+    <li><a href="#">how to store [[string]] and get it from core data?</a></li>
+
+    <li><a href="#">Why does my entire article spill out of it's border when it's in a flex container?</a></li>
+    <li><a href="#">How to JSON serialize null values but not empty values with Jackson?</a></li>
+    <li><a href="#">how to print shortcut text on menu bar without setting shortcut?</a></li>
+    </ul>
+
+
+
+</body>
+</html>

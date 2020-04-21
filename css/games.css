@@ -1,0 +1,169 @@
+{ margin: 0; padding: 0; }
+
+@font-face 
+{
+font-family: "BebasNeue";
+src: url("fonts/BebasNeue-Regular.eot");
+src: url("fonts/BebasNeue-Regular.woff") format("woff"),
+url("fonts/BebasNeue-Regular.otf") format("opentype");
+}
+
+#reset
+{
+    color: #66FCF1;
+    font-family: BebasNeue;
+    font-size: 200%;
+    float: left;
+    cursor: pointer
+}
+
+#result
+{
+    color: red;
+    font-family: BebasNeue;
+    font-size: 300%;
+    position: relative
+}
+
+#smile1
+{
+    color: white;
+    font-family: BebasNeue;
+    font-size: 250%;
+    float: left;
+    margin-left: 30%
+}
+
+#smile2
+{
+    color: white;
+    font-family: BebasNeue;
+    font-size: 250%;
+    float: left;
+}
+
+#smile3
+{
+    color: white;
+    font-family: BebasNeue;
+    font-size: 250%;
+    float: left;
+}
+
+#smile4
+{
+    color: white;
+    font-family: BebasNeue;
+    font-size: 250%;
+    float: left;
+}
+
+#smile5
+{
+    color: white;
+    font-family: BebasNeue;
+    font-size: 250%;
+    float: left;
+}
+#heart1
+{
+    color: #66FCF1;
+    font-family: BebasNeue;
+    font-size: 200%;
+    float: right
+}
+
+#heart2
+{
+    color: #66FCF1;
+    font-family: BebasNeue;
+    font-size: 200%;
+    float: right
+}
+
+#heart3
+{
+    color: #66FCF1;
+    font-family: BebasNeue;
+    font-size: 200%;
+    float: right
+}
+
+#topbar
+{
+    height: 50px;
+    width: 1200px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#frame
+{
+    height: 400px;
+    width: 1200px;
+    margin-left: 5%;
+}
+
+#wrong
+{
+    height: 400px;
+    width: 1200px;
+    position: absolute;
+    cursor: pointer;
+}
+#button1
+{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    float: left;
+    cursor:pointer;
+}
+
+#button2
+{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    float: left;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+#button3
+{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+#button4
+{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    float: right;
+    margin-top: 200px;
+    cursor:pointer;
+}
+
+#button5
+{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    float: right;
+    margin-right: 600px;
+    cursor: pointer;
+}
+#back {
+    font-size: 200%;
+    font-family: BebasNeue;
+    color: #66fcf1;
+    margin-left: 0.5%;
+    margin-top: 0%;
+    position: relative;
+}

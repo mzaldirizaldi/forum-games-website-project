@@ -1,0 +1,137 @@
+{ margin: 0; padding: 0; }
+
+@font-face 
+{
+font-family: "BebasNeue";
+src: url("fonts/BebasNeue-Regular.eot");
+src: url("fonts/BebasNeue-Regular.woff") format("woff"),
+url("fonts/BebasNeue-Regular.otf") format("opentype");
+}
+
+@font-face
+{
+font-family: "RobotoThin";
+src: url("fonts/roboto-thin-webfont.eot");
+src: url("fonts/roboto-thin-webfont.woff") format("woff"),
+url("fonts/Roboto-Thin.ttf") format("truetype");}
+
+@font-face
+{
+    font-family: "RobotoLight";
+src: url("fonts/roboto-light-webfont.eot");
+src: url("fonts/roboto-light-webfont.woff") format("woff"),
+url("fonts/Roboto-Light.ttf") format("truetype");
+}
+
+#welcome 
+{
+    font-size: 700%;
+    font-family: BebasNeue;
+    color: #66fcf1;
+    margin-left: 40%;
+    margin-top: 18%;
+    position: fixed;
+}
+
+#intro 
+{
+    font-size: 150%;
+    font-family: RobotoThin;
+    color: white;
+    margin-left: 45%;
+    margin-top: 26%;
+    position: absolute;
+    text-align: center;
+    position: fixed;
+}
+
+
+#button
+{
+    font-size: 130%;
+    font-family: RobotoLight;
+    color: white;
+    text-align: center;
+    border: solid 2px #66fcf1;
+    width: 10%;
+    height: 5%;
+    position: fixed;
+    border-radius: 5%;
+    padding-top: 0.5%;
+    cursor: pointer;
+}
+#button:hover
+{
+    font-size: 130%;
+    font-family: RobotoLight;
+    background-color: #66fcf1;
+    color: black;
+    text-align: center;
+    border: solid 2px #66fcf1;
+    width: 10%;
+    height: 5%;
+    position: fixed;
+    border-radius: 5%;
+    padding-top: 0.5%;
+    cursor: pointer;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+.fade-in1 {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
